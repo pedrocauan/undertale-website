@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "determination";
+    src: url("../fonts/determination.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "MonsterFriendBack";
+    src: url("../fonts/MonsterFriendBack.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "MonsterFriendFore";
+    src: url("../fonts/MonsterFriendFore.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "PressStart2P";
+    src: url("../fonts/PressStart2P.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "fight-mono";
+    src: url("../fonts/fight-mono.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "MERCY";
+    src: url("../fonts/MERCY.ttf") format("truetype"), url("../fonts/MERCY.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "fallen-down";
+    src: url("../fonts/fallen-down.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 65.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "determination";
+    color: white;
+    background-color: black;
+}
+
+p {
+    font-family: "PressStart2P";
+}
+
+.papyrus {
+    font-family: "PressStart2P";
+}
+
+h1 {
+    font-family: "MonsterFriendBack";
+    text-align: center;
+    font-size: 7rem;
+    color: rgb(246, 255, 0);
+    letter-spacing: 0.5rem;
+}
+
+h2 {
+    font-family: "MERCY";
+    width: 100%;
+    max-width: 25rem;
+    margin-left: 50rem;
+    text-align: center;
+    font-size: 7rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    color: hsl(29,84%,41%);
+    border: 0.4rem solid hsl(29,84%,41%);
+}
+
